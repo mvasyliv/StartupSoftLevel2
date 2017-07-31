@@ -1,0 +1,34 @@
+﻿<div class="container">
+    <div class="col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
+        <form name="registerForm" novalidate ng-submit="$ctrl.signUp(registerForm)">
+            <article class="col-sm-6 col-xs-12">
+                <input ng-model="$ctrl.register.fullName" required name="fullName" type="text" class="general-input" placeholder="Full name" maxlength="100" />
+                <div ng-messages="registerForm.fullName.$error" ng-if="registerForm.$submitted" role="alert">
+                    <p class="error" ng-message="required">Name is required.</p>
+                </div>
+
+                <input ng-model="$ctrl.register.email" name="email" required type="email" class="general-input" placeholder="Your .edu email" maxlength="100" />
+                <div ng-messages="registerForm.email.$error" ng-if="registerForm.$submitted" role="alert">
+                    <p class="error" ng-message="required">Email is required.</p>
+                    <p class="error" ng-message="email">Email invalid.</p>
+                </div>
+
+                <input ng-model="$ctrl.register.password" required name="password" type="password" class="general-input" placeholder="Paswword" />
+                <div ng-messages="registerForm.password.$error" ng-if="registerForm.$submitted" role="alert">
+                    <p class="error" ng-message="required">Paswword is required.</p>
+                </div>
+
+                <div ng-if="$ctrl.serverError">
+                    <br />
+                    <span class="error" ng-repeat="error in $ctrl.serverError">
+                        {{error}}
+                    </span>
+                </div>
+            </article>
+
+            <button type="submit" class="btn btn-blue btn-custom">
+                Continue
+            </button>
+        </form>
+    </div>
+</div>

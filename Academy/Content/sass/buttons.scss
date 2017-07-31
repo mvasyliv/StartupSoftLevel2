@@ -1,0 +1,68 @@
+﻿@import "variables.scss";
+
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: $grey;
+    background-color: transparent;
+    border-color: $blue;
+}
+
+.btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus {
+    color: $grey;
+    background-color: transparent;
+    border-color: $blue;
+}
+
+.btn-default:hover {
+    color: $grey;
+    background-color: transparent;
+    border-color: $blue;
+}
+
+.btn-custom {
+    border-radius: 40px;
+    padding: 8px 20px;
+}
+
+.btn-custom:hover {
+    /*box-shadow: inset 0 -1px 20px rgba(0, 0, 0, 0.125);*/
+    opacity: 0.85;
+}
+
+.btn-blue {
+    color: $white;
+    background-color: $blue;
+    border: 2px solid $blue;
+    border-radius: 40px;
+    /*width: 145px;*/
+}
+
+.btn-green {
+    color: $white;
+    background-color: $green;
+    border: 2px solid $green;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid $white;
+    color: white;
+}
+
+.btn-transparent:hover {
+    color: white;
+}
+
+.btn-white{
+    background:white;
+    color:$dark-grey;
+}
+
+.btn-white:hover{
+    color:$grey;
+}

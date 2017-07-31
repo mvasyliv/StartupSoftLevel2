@@ -1,0 +1,249 @@
+﻿@import "variables.scss";
+
+.navbar-header {
+    height: 45px;
+}
+
+.navbar-brand {
+    position: relative;
+    bottom: 22px;
+
+    img {
+        width: 120px;
+    }
+}
+
+.navbar-default {
+    background-color: transparent;
+}
+
+.general-navbar-container {
+    padding: 20px 0;
+    border-color: transparent;
+    z-index: 100;
+}
+
+.navbar-transparent {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar-blue {
+    background-color: $blue;
+}
+
+
+.btn-navbar {
+    margin: 4px;
+    /*margin-top: 7px;*/
+    margin-left: 8px;
+    font-size: 13px;
+    outline: 0;
+    padding: 12px 20px !important;
+}
+
+.btn-getstarted {
+    border: 1px solid white;
+}
+
+
+.general-navbar {
+    li {
+        margin-right: 14px;
+
+        a {
+            font-size: 13px;
+            color: $white !important;
+        }
+    }
+}
+
+.navbar-profile {
+    font-size: 47px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+
+.navbar-icon {
+    color: white;
+    position: absolute;
+    font-size: 20px;
+}
+
+.profile-dropdown {
+    margin-left: 20px;
+    top: 65px;
+    right: -8px !important;
+
+    li {
+        /*.profile-dropdown-first-item{
+                padding-top: 14px;
+        }*/
+        a {
+            padding: 12px 20px;
+            color: $grey;
+        }
+    }
+}
+
+.profile-dropdown::after {
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: -16px;
+    border: 9px solid transparent;
+    border-bottom: 8px solid white;
+}
+
+.notification-button-container {
+    right: 35px;
+}
+
+.message-button-container {
+    right: 60px;
+}
+
+.navbar-collapse {
+    border: none;
+}
+
+
+
+
+
+.loading {
+}
+
+.cssload-loader-container {
+    width: 161px;
+    height: 67px;
+    float: left;
+}
+
+.cssload-loader-container * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.cssload-abs-center {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.cssload-olympicloader {
+    position: relative;
+}
+
+.cssload-olympicloader .cssload-loader-circle {
+    width: 49px;
+    height: 49px;
+    border: 5px solid rgb(204,204,204);
+    border-radius: 50%;
+    animation: spin 940ms infinite linear;
+    -o-animation: spin 940ms infinite linear;
+    -ms-animation: spin 940ms infinite linear;
+    -webkit-animation: spin 940ms infinite linear;
+    -moz-animation: spin 940ms infinite linear;
+    float: left;
+}
+
+.cssload-olympicloader .cssload-loader-circle.cssload-first {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-color: rgba(2,207,200,0.98);
+}
+
+.cssload-olympicloader .cssload-loader-circle.cssload-second {
+    position: absolute;
+    top: 0;
+    left: 56px;
+    border-right-color: rgb(66,192,251);
+}
+
+.cssload-olympicloader .cssload-loader-circle.cssload-third {
+    position: absolute;
+    top: 0;
+    left: 112px;
+    border-bottom-color: rgba(2,207,200,0.98);
+}
+
+.cssload-olympicloader .cssload-loader-circle.cssload-fourth {
+    position: absolute;
+    top: 18px;
+    left: 28px;
+    border-left-color: rgb(66,192,251);
+}
+
+.cssload-olympicloader .cssload-loader-circle.cssload-fifth {
+    position: absolute;
+    top: 18px;
+    left: 84px;
+    border-right-color: rgb(2,207,200);
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spin {
+    from {
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        -o-transform: rotate(360deg);
+    }
+}
+
+@-ms-keyframes spin {
+    from {
+        -ms-transform: rotate(0deg);
+    }
+
+    to {
+        -ms-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}

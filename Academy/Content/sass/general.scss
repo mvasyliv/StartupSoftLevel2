@@ -1,0 +1,51 @@
+﻿@import "variables.scss";
+
+html {
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin-bottom: 10vh;
+    background-color: $background;
+}
+
+.error {
+    color: $color-red-error;
+    margin-bottom: 12px;
+}
+
+
+/*----404 Error----*/
+.notfound-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: linear-gradient(#00C2F9, #00CFCB);
+    color: white;
+
+    h1 {
+        font-size: 190px;
+        margin-bottom: 0;
+        margin-top: 13vh;
+        text-shadow: 6px 6px 2px rgba(0, 0, 0, 0.195);
+    }
+
+    h3 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+
+    button {
+        margin-top: 7vh;
+        padding: 11px 38px;
+        font-size: 16px;
+    }
+}
+
+/*---------------*/
+

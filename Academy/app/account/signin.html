@@ -1,0 +1,38 @@
+﻿<div class="container-fluid top-container top-registration-container">
+
+</div>
+
+
+<main class="container">
+    <div class="login-general-container">
+        <form name="loginForm" novalidate ng-submit="$ctrl.signIn(loginForm)">
+            <article class="login-body">
+                <h4 class="login-tittle">
+                    Log in
+                </h4>
+                <br />
+                <input ng-model="$ctrl.signInInfo.username" type="email" required name="email" class="general-input" placeholder="Email" />
+                <div ng-messages="loginForm.username.$error" ng-if="loginForm.$submitted">
+                    <p class="error" ng-message="email">Please select correct email</p>
+                    <p class="error" ng-message="required">Email is required.</p>
+                </div>
+
+                <input ng-model="$ctrl.signInInfo.password" required type="password" name="password" class="general-input" placeholder="Password" />
+                <div ng-messages="loginForm.password.$error" ng-if="loginForm.$submitted">
+                    <p class="error" ng-message="required">Password is required.</p>
+                </div>
+
+                    <p class="error">{{$ctrl.serverError}}</p>
+
+            </article>
+            <div class="login-footer">
+                <a ui-sref="forgotPassword" href="#" class="btn btn-custom blue-link pull-left">
+                    Forgot password ?
+                </a>
+                <button class="btn btn-blue btn-custom btn-login pull-right" type="submit">
+                    Log in
+                </button>
+            </div>
+        </form>
+    </div>
+</main>

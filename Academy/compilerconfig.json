@@ -1,0 +1,34 @@
+﻿[
+  {
+    "outputFile": "Content/sass/layout.css",
+    "inputFile": "Content/sass/layout.scss"
+  },
+  {
+    "outputFile": "Content/sass/account.css",
+    "inputFile": "Content/sass/account.scss"
+  },
+  {
+    "outputFile": "Content/sass/general.css",
+    "inputFile": "Content/sass/general.scss"
+  },
+  {
+    "outputFile": "Content/sass/variables.css",
+    "inputFile": "Content/sass/variables.scss"
+  },
+  {
+    "outputFile": "Content/sass/profile.css",
+    "inputFile": "Content/sass/profile.scss"
+  },
+  {
+    "outputFile": "Content/sass/inputs.css",
+    "inputFile": "Content/sass/inputs.scss"
+  },
+  {
+    "outputFile": "Content/sass/buttons.css",
+    "inputFile": "Content/sass/buttons.scss"
+  },
+  {
+    "outputFile": "Content/sass/home.css",
+    "inputFile": "Content/sass/home.scss"
+  }
+]

@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/Content/icon-fonts/icomoon.eot?p48rvr');
+  src:  url('/Content/icon-fonts/icomoon.eot?p48rvr#iefix') format('embedded-opentype'),
+    url('/Content/icon-fonts/icomoon.ttf?p48rvr') format('truetype'),
+    url('/Content/icon-fonts/icomoon.woff?p48rvr') format('woff'),
+    url('/Content/icon-fonts/icomoon.svg?p48rvr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-left-arrow:before {
+  content: "\e92a";
+  color: #d5d5d5;
+}
+.icon-twitter-logo:before {
+  content: "\e929";
+}
+.icon-twitter .path1:before {
+  content: "\e917";
+  color: rgb(85, 172, 238);
+}
+.icon-twitter .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(241, 242, 242);
+}
+.icon-credit-card:before {
+  content: "\e919";
+}
+.icon-linkedin .path1:before {
+  content: "\e91a";
+  color: rgb(14, 118, 168);
+}
+.icon-linkedin .path2:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-delete-user:before {
+  content: "\e91c";
+}
+.icon-photo-camera:before {
+  content: "\e91d";
+}
+.icon-send-button:before {
+  content: "\e91e";
+}
+.icon-heart:before {
+  content: "\e91f";
+}
+.icon-chat:before {
+  content: "\e920";
+}
+.icon-facebook-logo-button:before {
+  content: "\e921";
+}
+.icon-share:before {
+  content: "\e922";
+}
+.icon-clock-circular-outline:before {
+  content: "\e923";
+}
+.icon-google-plus-logo-button:before {
+  content: "\e924";
+}
+.icon-twitter-logo-button:before {
+  content: "\e925";
+}
+.icon-send-mail:before {
+  content: "\e926";
+}
+.icon-more-button-interface-symbol-of-three-horizontal-aligned-dots:before {
+  content: "\e927";
+}
+.icon-dollar-symbol:before {
+  content: "\e928";
+}
+.icon-badge:before {
+  content: "\e90b";
+}
+.icon-user2:before {
+  content: "\e90c";
+}
+.icon-placeholder:before {
+  content: "\e90d";
+}
+.icon-hand-cursor:before {
+  content: "\e90e";
+}
+.icon-close:before {
+  content: "\e90f";
+}
+.icon-customer:before {
+  content: "\e910";
+}
+.icon-video-add-button:before {
+  content: "\e911";
+}
+.icon-goal:before {
+  content: "\e912";
+}
+.icon-play-button:before {
+  content: "\e913";
+}
+.icon-database:before {
+  content: "\e914";
+}
+.icon-show-more-button-with-three-dots:before {
+  content: "\e915";
+}
+.icon-business-affiliate-network:before {
+  content: "\e916";
+}
+.icon-right-arrow:before {
+  content: "\e900";
+}
+.icon-phone-symbol-of-an-auricular-inside-a-circle:before {
+  content: "\e901";
+}
+.icon-review-file:before {
+  content: "\e902";
+}
+.icon-checked:before {
+  content: "\e903";
+}
+.icon-star:before {
+  content: "\e904";
+}
+.icon-quotation-mark:before {
+  content: "\e905";
+}
+.icon-envelope:before {
+  content: "\e906";
+}
+.icon-notification:before {
+  content: "\e907";
+}
+.icon-magnifying-glass-browser:before {
+  content: "\e908";
+}
+.icon-email:before {
+  content: "\e909";
+}
+.icon-user:before {
+  content: "\e90a";
+}
+
